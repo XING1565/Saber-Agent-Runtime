@@ -32,19 +32,6 @@ User -> Router -> Planner -> Executor -> Tools / RAG / Memory -> Generator -> Tr
 - RAG 证据链展示
 - 多轮会话上下文演示
 
-## 演示素材
-
-当前项目支持本地运行演示。建议后续补充以下截图到 `docs/`：
-
-```text
-docs/
-├── workbench.png        # Agent Debug Workbench 第一屏
-├── trace-detail.png     # Trace Detail / Replay / Compare
-├── rag-evidence.png     # RAG Evidence Explorer
-├── tool-calls.png       # Tool Calls 与失败定位
-└── memory-context.png   # Memory Context
-```
-
 ## 功能展示
 
 - [x] Agent Debug Workbench
@@ -60,10 +47,6 @@ docs/
 - [x] 前后端真实 `/api/chat` 联调
 - [x] Mock fallback
 - [x] 可选 SQLite 本地持久化 Trace 和 Document
-- [ ] PostgreSQL 持久化适配
-- [ ] Redis Session 缓存和执行状态
-- [ ] Docker 本地一键启动
-- [ ] 更完整的评测样本管理
 
 ## 技术栈
 
@@ -384,10 +367,3 @@ Generator 可以在配置 Key 后使用 LLM Provider；Router 和 Planner 默认
 ## License
 
 MIT
-
-## Contact
-
-请将以下信息替换为你的个人联系方式：
-
-- GitHub: `https://github.com/your-name`
-- Email: `your-email@example.com`
